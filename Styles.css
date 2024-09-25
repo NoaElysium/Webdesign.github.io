@@ -1,13 +1,14 @@
 body { font-family: Arial, sans-serif; 
-      margin: 0; } 
+      margin: 0;
+     text-align: center; /* Center text in body */} 
 
 header { background-color: #333; 
         color: #fff; 
         padding: 10px 0; } 
 
-nav ul { list-style-type: none; } 
+nav ul { list-style-type: none; padding: 0; /* Remove default padding */ } 
 
-nav ul li { display: inline; } 
+nav ul li { display: inline-block; /* Change to inline-block for better centering control */ margin-right: 10px; /* Add spacing between items */ } 
 
 nav ul li a { color: #fff; 
              text-decoration: none; 
@@ -17,4 +18,4 @@ main { padding: 20px; }
 
 footer { background-color: #333; 
         color: #fff; 
-        text-align: center; }
+        text-align: center; /* Center text in footer */ padding: 10px 0; /* Add padding for better spacing */ }
